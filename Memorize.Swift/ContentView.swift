@@ -4,7 +4,7 @@ struct ContentView: View {
     var body: some View{
         HStack{
             ForEach(0..<4) {index in 
-                CardView()
+                CardView(isFaceUp: true)
         }
     }
         .padding()
